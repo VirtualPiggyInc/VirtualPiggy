@@ -1,0 +1,33 @@
+#!/usr/bin/env mkb
+options
+{
+	module_path="../lib"
+	warn-level=2
+}
+
+packages
+{
+}
+
+subprojects
+{
+	VirtualPiggy
+}
+
+files
+{
+	[Source]
+	(source)
+	# Main
+	Main.cpp
+	Main.h
+
+	[Data]
+	(data)
+}
+
+assets
+{
+	(data)
+	(data-ram/data-gles1, data)
+}

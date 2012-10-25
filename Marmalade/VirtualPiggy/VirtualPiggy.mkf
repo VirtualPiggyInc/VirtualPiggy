@@ -1,0 +1,23 @@
+includepath h
+
+library
+{
+	".,VirtualPiggy"
+}
+
+define IW_HTTP_SSL
+
+subprojects
+{
+	iwhttp
+}
+
+files
+{
+	[h]
+	(h)
+	VirtualPiggy.h
+	VpCommon.h
+	VpHttp.h
+	VpString.h
+}
